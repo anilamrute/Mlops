@@ -27,3 +27,18 @@ This small project demonstrates:
         "intent": "complaint",
         "probabilities": {"complaint": 0.85, "question": 0.05, ...}
     }
+
+
+
+   
+---
+
+## 🐳 Docker Setup
+
+### 1️⃣ Build Docker Image
+```bash
+docker build -t intent-classifier .
+
+
+docker run -p 5000:5000 intent-classifier
+
